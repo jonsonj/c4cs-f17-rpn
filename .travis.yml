@@ -4,10 +4,8 @@ python:
 install:
  - pip install python-coveralls
  - pip install coverage
- - pip install nose
 script: 
  - py.test
- - nosetests --with-coverage 
 after_success:
  - coveralls
 
