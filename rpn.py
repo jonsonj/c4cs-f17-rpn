@@ -15,6 +15,8 @@ operators = {
 
 def calculate(myarg):
 	stack = list()
+	test = 1;
+	test2 = 2;
 	for token in myarg.split():
 		try:
 			token = int(token)
