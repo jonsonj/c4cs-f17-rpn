@@ -6,7 +6,7 @@ install:
  - pip install coverage
 script: 
  - py.test
- - coverage run test_rpn.py
+ - coverage run -source=. test_rpn.py
 after_success:
  - coveralls
 
