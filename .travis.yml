@@ -5,7 +5,7 @@ before_install:
  - pip install pytest pytest-cov
  - pip install coveralls
 script: 
- - make
+ - make 
 after_success:
  - coveralls
 
